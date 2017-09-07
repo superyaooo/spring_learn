@@ -1,2 +1,3 @@
-# Learning courses about the Spring Framework on pluralsight.com
+# Cracking the Spring Framework
+Courses covered:
 * Spring Fundamentals
