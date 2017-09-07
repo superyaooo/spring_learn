@@ -1,3 +1,3 @@
 # Cracking the Spring Framework
-Courses covered:
+Courses studied:
 * Spring Fundamentals
