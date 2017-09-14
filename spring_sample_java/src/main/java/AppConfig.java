@@ -9,7 +9,8 @@ import com.pluralsight.service.CustomerServiceImpl;
 @ComponentScan({"com.pluralsight"})
 public class AppConfig {
 	
-	@Bean(name="customerService")
+	// bean name has to be commented out to use "prototype" scope
+//	@Bean(name="customerService")   
 	public CustomerService getCustomerService() {
 //		CustomerServiceImpl service = new CustomerServiceImpl(getCustomerRepository());
 		CustomerServiceImpl service = new CustomerServiceImpl();
